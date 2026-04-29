@@ -1,0 +1,43 @@
+# Maven / Build
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+out/
+.vscode/
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+
+# Logs
+*.log
+logs/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.swp
+*~
+*.class
+
+# Pacotes
+*.jar
+*.war
+*.ear
+
+# Variáveis de ambiente
+.env
+
+# Configurações sensíveis (NUNCA subir)
+**/application.properties
+application-local.properties
+application-dev.properties
